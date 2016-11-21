@@ -4,8 +4,7 @@
 	"description": "Extends crawler extension",
 	"license": ["GPL-2.0+"],
 	"require": {
-		"typo3/cms-core": ">=6.2.0,<7.6.99",
-		"aoepeople/crawler": ">=5.0.0,<5.0.9"
+		"typo3/cms-core": ">=6.2.0,<7.6.99"
 	},
 	"autoload": {
 		"psr-4": {
