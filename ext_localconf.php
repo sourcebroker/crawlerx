@@ -10,3 +10,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['proc
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processDatamapClass']['tx_indexedsearch'] = \SourceBroker\Crawlerx\Hooks\CrawlerHook::class;
 
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['extbase']['commandControllers'][] = \SourceBroker\Crawlerx\Command\CrawlerxCommandController::class;
+
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects']['TYPO3\CMS\IndexedSearch\Domain\Repository\IndexSearchRepository'] = array(
+    'className' => \SourceBroker\Crawlerx\Xclass\TYPO3\CMS\IndexedSearch\Domain\Repository\IndexSearchRepository::class,
+);

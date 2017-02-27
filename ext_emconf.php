@@ -1,9 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "restrictfe".
- *
- * Auto generated | Identifier: d28cd7a1db7384cbe224017186c3e7af
+ * Extension Manager/Repository config file for ext "crawlerx".
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -11,8 +9,8 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
-	'title' => 'Extends crawler extension',
-	'description' => 'Allows to use more markers for link building.',
+	'title' => 'Extends crawler and indexed_search extension',
+	'description' => 'Extends crawler and indexed_search extension to make it easier to implement complex indexed_search/crawler scenarios.',
 	'category' => 'be',
 	'version' => '1.0.0',
 	'state' => 'stable',
